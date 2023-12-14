@@ -1,0 +1,40 @@
+#qwert
+    .minibox
+        width: 300px
+        height: 300px
+        border: 5px solid #776503
+        border-radius: 50px
+        h1
+            margin: 30px
+        transition: 3s
+        &:hover
+            border-radius: 30px
+            border: 3px solid #1f17f0
+            background-color: #b77474
+            h1
+                color: #2d202a
+
+    @media screen and ( max-width: 300px )
+        .minibox
+            width: 100px
+            height: 100px
+            border: 3px solid black
+            border-radius: 20px
+            background-color: #84d8e0
+
+    @media screen and ( min-width: 2000px)
+        .minibox
+            width: 500px
+            height: 500px
+            border: 3px solid #6b3402
+            border-radius: 20px
+            background-color: #ccae5c
+            transition: 3s
+            &:hover
+                width: 200px
+                height: 200px
+                border-radius: 40px
+                border: 3px solid #080569
+                background-color: #875bd8
+                h1
+                    color: #111010
